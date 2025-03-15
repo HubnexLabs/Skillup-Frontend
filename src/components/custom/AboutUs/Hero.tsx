@@ -21,7 +21,7 @@ const Hero = () => {
           </span>
         </ShinyButton>
       </div>
-      <div className="flex items-start my-6 w-[75%] text-center">
+      <div className="flex justify-center items-start my-6 w-[75%] text-center">
         <img src="/icons/success.svg" alt="success" />
         <p className=" text-xs lg:font-medium">
           100% Money Back Guarantee if you're not satisfied with the Evaluation

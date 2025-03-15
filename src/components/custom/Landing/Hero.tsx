@@ -20,8 +20,8 @@ const Hero = () => {
         <span className="absolute bottom-0 right-[20%] -translate-x-[20%] w-[15px] h-[15px] bg-green-one rounded-full"></span>
         <span className="absolute left-20 top-[20%] -translate-x-[20%] w-[15px] h-[15px] bg-green-one rounded-full"></span>
         <span className="absolute left-0 bottom-0 w-[160px] h-[160px] bg-green-radial blur-[100px] rounded-full"></span>
-        <div className="flex flex-col lg:flex-row justify-between w-full lg:w-[90%] mx-auto p-5">
-          <div className="w-full text-center  flex flex-col items-center ">
+        <div className="flex flex-col lg:flex-row justify-between w-full lg:w-[90%] mx-auto p-5 gap-5">
+          <div className="w-full text-left flex flex-col items-center lg:w-[50%] ">
             <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold text-nowrap">
               The <span className="text-green-tertiary">Ultimate</span> <br />
               <span className="text-green-tertiary">Launchpad</span> For <br />
@@ -49,7 +49,9 @@ const Hero = () => {
               </p>
             </div>
           </div>
-          <img src="/icons/hero.svg" alt="hero" className="lg:w-fit w-full" />
+          <div className="lg:w-[50%] w-full">
+            <img src="/icons/hero.svg" alt="hero" className="lg:w-fit w-full" />
+          </div>
         </div>
       </div>
     </>
