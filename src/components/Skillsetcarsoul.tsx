@@ -86,7 +86,8 @@ function Skillsetcarsoul() {
         <Marquee
           pauseOnHover
           vertical={true}
-          className="[--duration:30s] flex flex-col"
+          reverse={true}
+          className="[--duration:30s]"
         >
           {evenSkillset.map((skill, index) => (
             <SkillsetCard
@@ -97,11 +98,7 @@ function Skillsetcarsoul() {
             />
           ))}
         </Marquee>
-        <Marquee
-          pauseOnHover
-          vertical={true}
-          className="[--duration:30s] flex flex-col"
-        >
+        <Marquee pauseOnHover vertical={true} className="[--duration:30s]">
           {oddSkillset.map((skill, index) => (
             <SkillsetCard
               key={index}
