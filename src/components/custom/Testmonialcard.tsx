@@ -7,7 +7,7 @@ interface ReviewCardInterface {
 
 function ReviewCard({ profile, name, role, comment }: ReviewCardInterface) {
   return (
-    <div className="w-[267px]  rounded-[12px] bg-[#FFF] [box-shadow:0px_12px_12px_0px_rgba(0,_0,_0,_0.16)] flex px-[18px] py-[24px] flex-col justify-center items-center gap-[18px]">
+    <div className="w-[267px]  rounded-[12px] bg-[#FFF] [box-shadow:0px_12px_12px_0px_rgba(0,_0,_0,_0.16)] flex px-[18px] py-[24px] flex-col justify-center items-center gap-[18px] mx-[15px]">
       <div className="rounded-[90px] ">
         <img src={profile} className="w-[90px] h-[90px]" alt="" />
       </div>

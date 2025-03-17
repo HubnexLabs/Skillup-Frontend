@@ -24,7 +24,7 @@ const Team = () => {
         building a platform that is not just about education, but about
         transformation.
       </p>
-      <h1 className="text-xl lg:text-3xl font-semibold  text-center my-4">
+      {/* <h1 className="text-xl lg:text-3xl font-semibold  text-center my-4">
         Voices of Success
       </h1>
       <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 items-center">
@@ -43,7 +43,7 @@ const Team = () => {
           review="Flexibility and real-world application—these are what make Hubnex Skillup stand out. The mentorship and certifications have added immense value to my resume, and I’m now in a much stronger position in my career."
           reviewerName="Neha M., Business Analyst"
         />
-      </div>
+      </div> */}
     </div>
   );
 };
