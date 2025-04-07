@@ -81,7 +81,7 @@ const SkillUpForm = () => {
 
     axios
       .post(
-        "https://skill-up-backend-final.vercel.app/skillup/api/client/register",
+        "https://backend.skillup.hubnex.in/skillup/api/client/register",
         user
       )
       .then((_) => {
